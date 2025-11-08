@@ -1,48 +1,20 @@
 <!-- Referencias principales del proyecto -->
 
-[Python]: https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white
-[python-site]: https://docs.python.org/3/tutorial/
+[![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
+[![Qt](https://img.shields.io/badge/Qt-6-green?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
+[![SQLite](https://img.shields.io/badge/SQLite-Database-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
+[![CMake](https://img.shields.io/badge/CMake-Build_System-064F8C?style=for-the-badge&logo=cmake&logoColor=white)](https://cmake.org/)
+[![Git](https://img.shields.io/badge/Git-Version_Control-F05033?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![JSON](https://img.shields.io/badge/JSON-Data_Format-000000?style=for-the-badge&logo=json&logoColor=white)](https://www.json.org/)
+[![GoogleTest](https://img.shields.io/badge/GoogleTest-Unit_Testing-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/googletest)
+[![Multithreading](https://img.shields.io/badge/Multithreading-Enabled-FF6F00?style=for-the-badge&logo=threadless&logoColor=white)](https://www.geeksforgeeks.org/multithreading-in-cpp/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-[W3Schools]: https://img.shields.io/badge/W3Schools-%23007ACC.svg?style=for-the-badge&logo=w3schools&logoColor=white
-[w3schools-site]: https://www.w3schools.com/python/python_reference.asp
-
-[Django]: https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white
-[django-site]: https://docs.djangoproject.com/en/4.0/
-
-[MDN]: https://img.shields.io/badge/MDN_Web_Docs-%23000000.svg?style=for-the-badge&logo=mdnwebdocs&logoColor=white
-[mdn-site]: https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Models
-
-[DjangoGirls]: https://img.shields.io/badge/Django_Girls-%23FF66B3.svg?style=for-the-badge&logo=django&logoColor=white
-[djangogirls-site]: https://tutorial.djangogirls.org/es/django_models/
-
-[PEAR]: https://img.shields.io/badge/PEAR_PHP-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white
-[pear-site]: https://pear.php.net/manual/en/standards.php
-
-[PyPI]: https://img.shields.io/badge/PyPI-%23007FFF.svg?style=for-the-badge&logo=pypi&logoColor=white
-[pypi-site]: https://pypi.org/
-
-[Pip]: https://img.shields.io/badge/pip-%2300B2FF.svg?style=for-the-badge&logo=pypi&logoColor=white
-[pip-site]: https://pip.pypa.io/en/latest/user_guide/
-
-[Packaging]: https://img.shields.io/badge/Python_Packaging-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=white
-[packaging-site]: https://packaging.python.org/en/latest/tutorials/installing-packages/
-
-[YouTube]: https://img.shields.io/badge/YouTube_Tutorial-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white
-[youtube-site]: https://www.youtube.com/watch?v=M4NIs4BM1dk
 
 
 ## 🔗 Referencias y Recursos Utilizados
 
-[![Python][Python]][python-site]
-[![W3Schools][W3Schools]][w3schools-site]
-[![Django][Django]][django-site]
-[![MDN][MDN]][mdn-site]
-[![DjangoGirls][DjangoGirls]][djangogirls-site]
-[![PEAR][PEAR]][pear-site]
-[![PyPI][PyPI]][pypi-site]
-[![Pip][Pip]][pip-site]
-[![Packaging][Packaging]][packaging-site]
-[![YouTube][YouTube]][youtube-site]
 
 <tr>
   <td colspan="6">
