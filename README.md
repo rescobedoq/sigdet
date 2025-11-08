@@ -1,81 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carátula del Proyecto</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #004e92, #000428);
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 20px;
-      padding: 40px 60px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-      text-align: center;
-      max-width: 700px;
-    }
-    h1 {
-      font-size: 2.3rem;
-      margin-bottom: 0.5rem;
-      color: #00ffcc;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    h2 {
-      font-weight: 300;
-      margin-top: 0;
-      color: #c9e8ff;
-    }
-    hr {
-      border: none;
-      border-top: 2px solid #00ffcc;
-      width: 80%;
-      margin: 20px auto;
-    }
-    .info {
-      text-align: left;
-      margin-top: 20px;
-      line-height: 1.6;
-      color: #e3f6ff;
-    }
-    .info strong {
-      color: #00ffcc;
-    }
-    footer {
-      margin-top: 30px;
-      font-size: 0.9rem;
-      color: #a9d6ff;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Gestión de Donaciones</h1>
-    <h2>Proyecto de Software - Arquitectura MVC en C++/Qt</h2>
-    <hr>
-    <div class="info">
-      <p><strong>Integrantes:</strong> Roni Companocca, Jeanpiero [Apellido], [Otro si hay]</p>
-      <p><strong>Docente:</strong> [Nombre del docente]</p>
-      <p><strong>Curso:</strong> Programación Orientada a Objetos</p>
-      <p><strong>Institución:</strong> [Nombre de la Institución Educativa]</p>
-      <p><strong>Fecha:</strong> Noviembre 2025</p>
-    </div>
-    <hr>
-    <footer>
-      <p>📦 Sistema de gestión de donaciones - CRUD | MVC | Qt | SQLite | C++17</p>
-    </footer>
-  </div>
-</body>
-</html>
+<div align="center" style="background-color:#0A192F; color:#E6F1FF; padding:40px; border-radius:20px;">
+
+  <h1 style="color:#64FFDA; font-size:2.5em;">💙 SISTEMA DE GESTIÓN DE DONACIONES</h1>
+  <h3 style="color:#A8B2D1;">Proyecto de Software — Arquitectura MVC con C++ / Qt</h3>
+
+  <hr style="width:80%; border:1px solid #64FFDA;">
+
+  <p style="font-size:1.1em; line-height:1.6;">
+    <strong>🏫 Institución:</strong> [Nombre de la Institución]<br>
+    <strong>👨‍🏫 Docente:</strong> [Nombre del docente]<br>
+    <strong>👨‍💻 Integrantes:</strong> Roni Companocca · Jeanpiero [Apellido] · [Otro si hay]<br>
+    <strong>📅 Fecha:</strong> Noviembre 2025
+  </p>
+
+  <hr style="width:80%; border:1px solid #64FFDA;">
+
+  <p style="font-size:0.95em; color:#8892B0;">
+    ✨ Proyecto académico — CRUD | MVC | Qt | SQLite | C++17
+  </p>
+</div>
+
 
 <!-- Referencias principales del proyecto -->
 ## 🔗 Referencias y Recursos Utilizados
