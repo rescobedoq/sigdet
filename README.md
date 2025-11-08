@@ -1,3 +1,49 @@
+<!-- Referencias principales del proyecto -->
+
+[Python]: https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white
+[python-site]: https://docs.python.org/3/tutorial/
+
+[W3Schools]: https://img.shields.io/badge/W3Schools-%23007ACC.svg?style=for-the-badge&logo=w3schools&logoColor=white
+[w3schools-site]: https://www.w3schools.com/python/python_reference.asp
+
+[Django]: https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white
+[django-site]: https://docs.djangoproject.com/en/4.0/
+
+[MDN]: https://img.shields.io/badge/MDN_Web_Docs-%23000000.svg?style=for-the-badge&logo=mdnwebdocs&logoColor=white
+[mdn-site]: https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Models
+
+[DjangoGirls]: https://img.shields.io/badge/Django_Girls-%23FF66B3.svg?style=for-the-badge&logo=django&logoColor=white
+[djangogirls-site]: https://tutorial.djangogirls.org/es/django_models/
+
+[PEAR]: https://img.shields.io/badge/PEAR_PHP-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white
+[pear-site]: https://pear.php.net/manual/en/standards.php
+
+[PyPI]: https://img.shields.io/badge/PyPI-%23007FFF.svg?style=for-the-badge&logo=pypi&logoColor=white
+[pypi-site]: https://pypi.org/
+
+[Pip]: https://img.shields.io/badge/pip-%2300B2FF.svg?style=for-the-badge&logo=pypi&logoColor=white
+[pip-site]: https://pip.pypa.io/en/latest/user_guide/
+
+[Packaging]: https://img.shields.io/badge/Python_Packaging-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=white
+[packaging-site]: https://packaging.python.org/en/latest/tutorials/installing-packages/
+
+[YouTube]: https://img.shields.io/badge/YouTube_Tutorial-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white
+[youtube-site]: https://www.youtube.com/watch?v=M4NIs4BM1dk
+
+
+## 🔗 Referencias y Recursos Utilizados
+
+[![Python][Python]][python-site]
+[![W3Schools][W3Schools]][w3schools-site]
+[![Django][Django]][django-site]
+[![MDN][MDN]][mdn-site]
+[![DjangoGirls][DjangoGirls]][djangogirls-site]
+[![PEAR][PEAR]][pear-site]
+[![PyPI][PyPI]][pypi-site]
+[![Pip][Pip]][pip-site]
+[![Packaging][Packaging]][packaging-site]
+[![YouTube][YouTube]][youtube-site]
+
 <tr>
   <td colspan="6">
     <strong>Referencias y Recursos Utilizados</strong>
