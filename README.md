@@ -1,24 +1,30 @@
 <div align="center" style="background-color:#0A192F; color:#E6F1FF; padding:40px; border-radius:20px;">
 
-  <h1 style="color:#64FFDA; font-size:2.5em;">💙 SISTEMA DE GESTIÓN DE DONACIONES</h1>
-  <h3 style="color:#A8B2D1;">Proyecto de Software — Arquitectura MVC con C++ / Qt</h3>
+  <h1 style="color:#64FFDA; font-size:2em; margin:0 0 8px;">Sistema Integral de Gestión de Donaciones con Enfoque en Eficiencia y Transparencia</h1>
+  <h3 style="color:#A8B2D1; margin:0 0 16px;">SIGDET</h3>
 
   <hr style="width:80%; border:1px solid #64FFDA;">
 
-  <p style="font-size:1.1em; line-height:1.6;">
-    <strong>🏫 Institución:</strong> [Nombre de la Institución]<br>
-    <strong>👨‍🏫 Docente:</strong> [Nombre del docente]<br>
-    <strong>👨‍💻 Integrantes:</strong> Roni Companocca · Jeanpiero [Apellido] · [Otro si hay]<br>
-    <strong>📅 Fecha:</strong> Noviembre 2025
-  </p>
+  <div style="font-size:1.05em; line-height:1.6; text-align:left; max-width:700px; margin:20px auto; color:#E6F1FF;">
+    <p style="margin:0;"><strong>Institución:</strong> Universidad Nacional de San Agustín de Arequipa</p>
+    <p style="margin:8px 0 0;"><strong>Docente:</strong> Richart Smith Escobedo Quispe</p>
+
+    <p style="margin:12px 0 4px;"><strong>Integrantes:</strong></p>
+    <ul style="margin:0 0 8px 20px; padding:0;">
+      <li>Carlos Ccamaqque Wilson Freddy</li>
+      <li>Companocca Checco Roni (rcompanocca@unsa.edu.pe)</li>
+      <li>Huamani Condori Jeanpiero Sixto</li>
+      <li>Llacho Delgado Samir Jaren</li>
+      <li>Mamani Quispe Adrian Issac</li>
+    </ul>
+
+    <p style="margin:8px 0 0;"><strong>Fecha:</strong> Noviembre 2025</p>
+  </div>
 
   <hr style="width:80%; border:1px solid #64FFDA;">
 
-  <p style="font-size:0.95em; color:#8892B0;">
-    ✨ Proyecto académico — CRUD | MVC | Qt | SQLite | C++17
-  </p>
+  <p style="font-size:0.95em; color:#8892B0; margin:12px 0 0;">Proyecto: Programación Orientada a Objetos</p>
 </div>
-
 
 <!-- Referencias principales del proyecto -->
 ## 🔗 Referencias y Recursos Utilizados
