@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="icons">
+        <file>sidebar/dashboard.svg</file>
+        <file>sidebar/donaciones.svg</file>
+        <file>sidebar/inventario.svg</file>
+        <file>sidebar/donantes.svg</file>
+        <file>sidebar/informes.svg</file>
+        <file>sidebar/configuracion.svg</file>
+        <file>sidebar/ayuda.svg</file>
+        <file>sidebar/cerrar sesion.svg</file>
+
+        <file>sidebar/logo.png</file>
+    </qresource>
+</RCC>

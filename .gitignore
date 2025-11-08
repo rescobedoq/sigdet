@@ -1,0 +1,87 @@
+# --- Archivos de compilación ---
+build/
+build-*/
+**/build/
+**/build-*/
+/bin/
+/lib/
+/dist/
+
+# --- Archivos generados por Qt Creator ---
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.creator.user
+*.creator.user.*
+*.autosave
+*.qmlc
+*.jsc
+*.moc
+*.prl
+*.pro.user.*
+*.obj
+*.o
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.app/
+*.qmake.stash
+*.qmake.cache
+*.cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Archivos temporales y de sistema ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# --- Archivos de depuración ---
+*.ncb
+*.sdf
+*.pdb
+*.idb
+
+# --- Archivos de pruebas ---
+/tests/build/
+/tests/temp/
+/tests/output/
+
+# --- Archivos generados por Qt Linguist ---
+*.qm
+
+# --- Archivos de configuración locales ---
+*.user
+*.user.*
+*.db
+*.ini
+*.cache
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Qt Installer Framework ---
+/installer/packages/
+/installer/release/
+/installer/build/
+
+# --- Python helper scripts (si usas herramientas Qt for Python) ---
+__pycache__/
+*.pyc
+
+# --- Otros ---
+*.qrc.depends
+*.qrc.resources
