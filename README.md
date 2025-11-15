@@ -68,7 +68,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 **Cronograma de Desarrollo**
 
-# **Semana 1 – Análisis, Diseño y Base del Proyecto**
+### **Semana 1 – Análisis, Diseño y Base del Proyecto**
 **Objetivo:** Establecer la estructura base del proyecto y definir el modelo de clases.  
 **Tareas:**
 - Configuración del entorno (Qt Creator / CMake / Git).  
@@ -80,7 +80,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 - Documentación inicial en el `README.md`.
 **Entrega esperada:** Proyecto compila correctamente con estructura MVC vacía y modelos definidos.
 
-# **Semana 2 – Implementación del Modelo (Lógica de Negocio)**
+### **Semana 2 – Implementación del Modelo (Lógica de Negocio)**
 **Objetivo:** Desarrollar toda la lógica de negocio del sistema sin interfaz gráfica.  
 **Tareas:**
 - Implementación de las clases:
@@ -92,7 +92,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 - Implementar **tests unitarios** básicos (GoogleTest o Catch2).
 **Entrega esperada:** Lógica del sistema completamente funcional en modo consola.
 
-# **Semana 3 – Interfaz Gráfica (Vista) y Controladores**
+### **Semana 3 – Interfaz Gráfica (Vista) y Controladores**
 **Objetivo:** Implementar la interfaz Qt y conectar los controladores con el modelo.  
 **Tareas:**
 - Creación de ventanas con **Qt Widgets**:
@@ -106,7 +106,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 - Prueba completa del CRUD desde la interfaz.
 **Entrega esperada:** Aplicación Qt funcional con operaciones CRUD completas sobre estructuras en memoria.
 
-# **Semana 4 – Persistencia y Funcionalidades Avanzadas**
+### **Semana 4 – Persistencia y Funcionalidades Avanzadas**
 **Objetivo:** Incorporar almacenamiento persistente y optimizar el rendimiento.  
 **Tareas:**
 - Implementar persistencia de datos:
@@ -118,7 +118,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 - Mejoras visuales y pulido de interfaz.
 **Entrega esperada:** Aplicación persistente, con reportes exportables y GUI estable.
 
-# **Semana 5 – Pruebas, Optimización y Documentación Final**
+### **Semana 5 – Pruebas, Optimización y Documentación Final**
 **Objetivo:** Finalizar, probar y documentar completamente el proyecto.  
 **Tareas:**
 - Pruebas unitarias y de integración completas.  
