@@ -1,21 +1,13 @@
 #include "donacion.h"
 #include "ui_donacion.h"
-#include <QMessageBox> // Para mostrar alertas
+#include <QMessageBox>
 
 Donacion::Donacion(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Donacion)
 {
     ui->setupUi(this);
-
-    // --- CONFIGURACIÓN DE LA TABLA ---
-    ui->tablaDonaciones->setColumnCount(3); // 3 Columnas
-    QStringList encabezados;
-    encabezados << "Donante" << "Producto" << "Cantidad";
-    ui->tablaDonaciones->setHorizontalHeaderLabels(encabezados);
-
-    // Hacer que las columnas ocupen todo el ancho
-    ui->tablaDonaciones->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    configurarTabla();
 }
 
 Donacion::~Donacion()
@@ -23,38 +15,68 @@ Donacion::~Donacion()
     delete ui;
 }
 
-// LÓGICA DEL BOTÓN REGISTRAR
+void Donacion::configurarTabla() {
+    ui->tablaDonaciones->setColumnCount(4); // Agregamos columna "Tipo"
+    QStringList encabezados;
+    encabezados << "Tipo" << "Donante" << "Producto" << "Cantidad";
+    ui->tablaDonaciones->setHorizontalHeaderLabels(encabezados);
+    ui->tablaDonaciones->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+}
+
 void Donacion::on_btnRegistrar_clicked()
 {
-    // 1. Obtener texto de las cajas
+    // 1. Obtener datos
     QString nombre = ui->txtDonante->text();
     QString producto = ui->txtProducto->text();
     int cantidad = ui->spinCantidad->value();
 
-    // 2. Validar que no estén vacíos
+    // Lógica básica de UI: determinar el tipo (puedes agregar un RadioButton en el UI para esto)
+    // Por ahora, asumiremos que si el producto contiene "camisa" o "pantalon" es ropa.
+    bool esRopa = producto.contains("camisa", Qt::CaseInsensitive) ||
+                  producto.contains("pantalon", Qt::CaseInsensitive);
+
+    // 2. Validación simple en UI
     if(nombre.isEmpty() || producto.isEmpty() || cantidad <= 0) {
-        QMessageBox::warning(this, "Error", "Por favor llene todos los datos y la cantidad debe ser mayor a 0.");
-        return; // Salir de la función si hay error
+        QMessageBox::warning(this, "Error", "Datos inválidos.");
+        return;
     }
 
-    // 3. Insertar fila en la tabla
-    int filaActual = ui->tablaDonaciones->rowCount();
-    ui->tablaDonaciones->insertRow(filaActual);
+    try {
+        // 3. Delegar al CONTROLADOR (MVC)
+        controlador.registrarDonacion(nombre, producto, cantidad, esRopa);
 
-    // 4. Poner los datos en las celdas
-    ui->tablaDonaciones->setItem(filaActual, 0, new QTableWidgetItem(nombre));
-    ui->tablaDonaciones->setItem(filaActual, 1, new QTableWidgetItem(producto));
-    ui->tablaDonaciones->setItem(filaActual, 2, new QTableWidgetItem(QString::number(cantidad)));
+        // 4. Actualizar Tabla (La vista reacciona)
+        int fila = ui->tablaDonaciones->rowCount();
+        ui->tablaDonaciones->insertRow(fila);
 
-    // 5. Avisar y limpiar
-    QMessageBox::information(this, "Éxito", "Donación registrada correctamente.");
-    limpiarFormulario();
+        QString tipoStr = esRopa ? "Ropa" : "Alimento";
+
+        ui->tablaDonaciones->setItem(fila, 0, new QTableWidgetItem(tipoStr));
+        ui->tablaDonaciones->setItem(fila, 1, new QTableWidgetItem(nombre));
+        ui->tablaDonaciones->setItem(fila, 2, new QTableWidgetItem(producto));
+        ui->tablaDonaciones->setItem(fila, 3, new QTableWidgetItem(QString::number(cantidad)));
+
+        // 5. Uso de Multithreading (Llamada asíncrona)
+        controlador.guardarEnBaseDeDatosAsync();
+
+        QMessageBox::information(this, "Éxito", "Donación registrada y guardando en segundo plano.");
+        limpiarFormulario();
+
+    } catch (const std::exception &e) {
+        // Manejo de errores que vienen del modelo/controlador
+        QMessageBox::critical(this, "Error Crítico", e.what());
+    }
 }
 
 void Donacion::limpiarFormulario()
 {
-    ui->txtDonante->clear();
-    ui->txtProducto->clear();
-    ui->spinCantidad->setValue(0);
-    ui->txtDonante->setFocus(); // Pone el cursor en el primer campo
+    // Uso de Lambdas para tareas pequeñas (Programación Moderna)
+    auto limpiar = [this]() {
+        ui->txtDonante->clear();
+        ui->txtProducto->clear();
+        ui->spinCantidad->setValue(0);
+        ui->txtDonante->setFocus();
+    };
+
+    limpiar();
 }

@@ -2,6 +2,7 @@
 #define DONACION_H
 
 #include <QMainWindow>
+#include "controlador.h" // Incluimos el controlador
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Donacion; }
@@ -16,13 +17,15 @@ public:
     ~Donacion();
 
 private slots:
-    // Esta función reacciona al clic del botón
     void on_btnRegistrar_clicked();
 
 private:
     Ui::Donacion *ui;
 
-    // Función auxiliar para limpiar las cajas de texto
+    // Instancia del controlador (Composición)
+    ControladorDonaciones controlador;
+
     void limpiarFormulario();
+    void configurarTabla();
 };
 #endif // DONACION_H

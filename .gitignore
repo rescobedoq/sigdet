@@ -16,3 +16,28 @@ build/
 *.dll
 *.exe
 *.user
+# Archivos de compilación de C++ y Qt
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.a
+*.lib
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+# Carpetas de build
+build/
+build-*/
+debug/
+release/
+x64/
+.vs/
+.vscode/

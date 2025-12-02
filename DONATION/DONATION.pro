@@ -13,7 +13,10 @@ SOURCES += \
     donacion.cpp
 
 HEADERS += \
-    donacion.h
+    controlador.h \
+    donacion.h \
+    factory.h \
+    modelos.h
 
 FORMS += \
     donacion.ui
