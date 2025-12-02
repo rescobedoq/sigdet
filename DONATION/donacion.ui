@@ -6,21 +6,114 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>650</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Donacion</string>
+   <string>SIGDET - Registro de Donaciones</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre Donante:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtDonante">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>250</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Producto:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtProducto">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>250</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>80</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cantidad:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinCantidad">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRegistrar">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>90</y>
+      <width>150</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Registrar</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tablaDonaciones">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>580</width>
+      <height>300</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>25</height>
+     <width>650</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>

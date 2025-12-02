@@ -1,0 +1,18 @@
+# Qt Creator basura
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Build directories
+build/
+*/build-*/
+
+# QtCreator config dirs
+.qtcreator/
+
+# Compiled stuff
+*.o
+*.obj
+*.dll
+*.exe
+*.user
