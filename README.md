@@ -145,7 +145,10 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 # SEMANA 1 - REALIZANDO Y CUMPLIENDO TODOS LOS OBJETIVOS PLANTEADOS
 - Diagrma UML
 ![UML](C:\Users\ronic\Desktop\proyecto qt\img\diagrama.jpeg)
-
+- Como nuestro proyecto usa la arquitectura MVC en la imagen podemos observar como cumplimos con realizar las clases principales del modelo. Tambien en la misma imagen podemos obeservar la implementacion basico del main basico.
+![MAIN](C:\Users\ronic\Desktop\proyecto qt\img\main.jpeg)
+- Al ejecutar nuestro main basico nos da el siguiente interfaz que seria en inicio de nuestro proyecto. con esto concluimos la semana 1.
+![EJE](C:\Users\ronic\Desktop\proyecto qt\img\eje.jpeg)
 
 [![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
 [![Qt](https://img.shields.io/badge/Qt-6-green?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
