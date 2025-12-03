@@ -70,6 +70,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 ### **Semana 1 – Análisis, Diseño y Base del Proyecto**
 **2 de Noviembre hasta el 8 de Noviembre**
+
 **Objetivo:** Establecer la estructura base del proyecto y definir el modelo de clases.  
 **Tareas:**
 - Configuración del entorno (Qt Creator / CMake / Git).  
@@ -83,6 +84,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 ### **Semana 2 – Implementación del Modelo (Lógica de Negocio)**
 **9 de Noviembre hasta el 15 de Noviembre**
+
 **Objetivo:** Desarrollar toda la lógica de negocio del sistema sin interfaz gráfica.  
 **Tareas:**
 - Implementación de las clases:
@@ -96,6 +98,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 ### **Semana 3 – Interfaz Gráfica (Vista) y Controladores**
 **16 de Noviembre hasta el 22 de Noviembre**
+
 **Objetivo:** Implementar la interfaz Qt y conectar los controladores con el modelo.  
 **Tareas:**
 - Creación de ventanas con **Qt Widgets**:
@@ -111,6 +114,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 ### **Semana 4 – Persistencia y Funcionalidades Avanzadas**
 **23 de Noviembre hasta el 29 de Noviembre**
+
 **Objetivo:** Incorporar almacenamiento persistente y optimizar el rendimiento.  
 **Tareas:**
 - Implementar persistencia de datos:
@@ -124,6 +128,7 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 ### **Semana 5 – Pruebas, Optimización y Documentación Final**
 **30 de Noviembre hasta el 6 de Diciembre**
+
 **Objetivo:** Finalizar, probar y documentar completamente el proyecto.  
 **Tareas:**
 - Pruebas unitarias y de integración completas.  
@@ -136,6 +141,10 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
   - Guía de compilación y ejecución con **CMake**.  
 - Presentación final y entrega del ejecutable.
 **Entrega esperada:** Sistema completo, probado y documentado, listo para presentación.
+
+# SEMANA 1 - REALIZANDO Y CUMPLIENDO TODOS LOS OBJETIVOS PLANTEADOS
+- Diagrma UML
+<a href="https://ibb.co/wrRdPPmw"><img src="https://i.ibb.co/wrRdPPmw/DIAGRAMA-UML.jpg" alt="DIAGRAMA-UML" border="0"></a>
 
 [![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
 [![Qt](https://img.shields.io/badge/Qt-6-green?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
