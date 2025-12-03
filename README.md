@@ -144,11 +144,14 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 # SEMANA 1 - REALIZANDO Y CUMPLIENDO TODOS LOS OBJETIVOS PLANTEADOS
 - Diagrma UML
+
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/YT3N11sy/DIAGRAMA-UML.jpg" alt="DIAGRAMA-UML" border="0"></a>
 - Como nuestro proyecto usa la arquitectura MVC en la imagen podemos observar como cumplimos con realizar las clases principales del modelo. Tambien en la misma imagen podemos obeservar la implementacion basico del main basico.
-![MAIN](C:\Users\ronic\Desktop\proyecto qt\img\main.jpeg)
+
+<a href="https://ibb.co/8g8vLJts"><img src="https://i.ibb.co/SwvY42Gy/main.jpg" alt="main" border="0"></a>
 - Al ejecutar nuestro main basico nos da el siguiente interfaz que seria en inicio de nuestro proyecto. con esto concluimos la semana 1.
-![EJE](C:\Users\ronic\Desktop\proyecto qt\img\eje.jpeg)
+
+<a href="https://ibb.co/BVZHXC98"><img src="https://i.ibb.co/jvM9crS7/eje.jpg" alt="eje" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>alternativa a imgbb</a><br />
 
 [![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
 [![Qt](https://img.shields.io/badge/Qt-6-green?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
