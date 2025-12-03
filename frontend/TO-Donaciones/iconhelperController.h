@@ -1,5 +1,5 @@
-#ifndef ICONHELPER_H
-#define ICONHELPER_H
+#ifndef ICONHELPERCONTROLLER_H
+#define ICONHELPERCONTROLLER_H
 
 #include <QIcon>
 #include <QColor>
@@ -7,17 +7,16 @@
 #include <QSize>
 #include <QPushButton>
 
-class iconhelper
+class IconHelper
 {
 public:
-    // Recolorea un SVG y devuelve un QIcon
     static QIcon recolorSvg(const QString &path, const QColor &color, const QSize &size = QSize(20, 20));
 
-    // Configura un QPushButton para que cambie de color al estar toggled (seleccionado)
     static void setToggleIcon(QPushButton *button, const QString &iconPath,
                               const QColor &activeColor = QColor(37, 99, 235),
                               const QColor &inactiveColor = QColor(227, 227, 227),
-                              const QSize &size = QSize(20, 20));
+                              const QSize &size = QSize(20, 20),
+                              std::function<void(bool)> onToggled = nullptr);
 };
 
-#endif // ICONHELPER_H
+#endif // ICONHELPERCONTROLLER_H

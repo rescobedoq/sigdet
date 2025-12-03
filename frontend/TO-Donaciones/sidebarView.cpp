@@ -1,4 +1,4 @@
-#include "sidebar.h"
+#include "sidebarView.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QPushButton>
@@ -11,7 +11,7 @@
 #include <QSvgRenderer>
 #include <QPainter>
 #include <QPixmap>
-#include "iconhelper.h"
+#include "iconhelperController.h"
 
 Sidebar::Sidebar(QWidget *parent)
     : QFrame(parent)
@@ -68,36 +68,49 @@ Sidebar::Sidebar(QWidget *parent)
     // --- Menú principal ---
     auto *menu = new QVBoxLayout;
     QStringList items = {
-        "Dashboard", "Donaciones", "Inventario", "Donantes", "Informes", "Configuracion"
+        "Donaciones Recibidas","Donaciones Enviadas", "Inventario", "Donantes", "Beneficiarios", "Informes"
     };
 
     QButtonGroup *group = new QButtonGroup(this);
     group->setExclusive(true);
 
-    for (const QString &item : items) {
+    auto createMenuButton = [this, group](const QString &item) {
         QPushButton *btn = new QPushButton(item);
         btn->setCheckable(true);
 
-        iconhelper::setToggleIcon(btn, ":/icons/sidebar/" + item.toLower() + ".svg");
+        IconHelper::setToggleIcon(
+            btn,
+            ":/icons/sidebar/" + item.toLower() + ".svg",
+            QColor(37, 99, 235),
+            QColor(227, 227, 227),
+            QSize(20, 20),
+            [this, item](bool checked) {
+                if (checked)
+                    emit menuSelected(item);
+            }
+            );
 
-        menu->addWidget(btn);
         group->addButton(btn);
-    }
+        return btn;
+    };
 
-    // Opcional: marcar uno por defecto
-    if (QAbstractButton *firstBtn = group->buttons().value(0)) {
-        firstBtn->setChecked(true);
+    // Crear los botones del menú principal
+    for (const QString &item : items) {
+        QPushButton *btn = createMenuButton(item);
+        menu->addWidget(btn);
     }
 
     // --- Pie (Ayuda / Cerrar sesión) ---
     auto *footer = new QVBoxLayout;
-    QStringList footerItems = {"Ayuda", "Cerrar Sesion"};
-    for (const QString &item : footerItems) {
-        QPushButton *btn = new QPushButton(item);
-        btn->setIcon(QIcon(":/icons/sidebar/" + item.toLower() + ".png"));
-        btn->setIconSize(QSize(20, 20));
-        footer->addWidget(btn);
-    }
+
+    // ✅ "Ayuda" también es parte del grupo y tiene toggle visual
+    QPushButton *helpBtn = createMenuButton("Ayuda");
+    footer->addWidget(helpBtn);
+
+    // 🚫 "Cerrar Sesión" no se incluye en el grupo
+    QPushButton *logoutBtn = createMenuButton("Cerrar Sesion");
+    footer->addWidget(logoutBtn);
+
     footer->addStretch();
 
     // --- Ensamblar layout principal ---
@@ -106,4 +119,22 @@ Sidebar::Sidebar(QWidget *parent)
     mainLayout->addLayout(menu);
     mainLayout->addStretch();
     mainLayout->addLayout(footer);
+
+    // --- Marcar uno por defecto ---
+    if (QAbstractButton *firstBtn = group->buttons().value(0)) {
+        firstBtn->setChecked(true);
+    }
+}
+void Sidebar::resetToDefault()
+{
+    // Busca el primer botón del grupo (Donaciones Recibidas) y lo marca como activo
+    QList<QAbstractButton*> buttons = findChildren<QAbstractButton*>();
+    if (!buttons.isEmpty()) {
+        for (auto *btn : buttons)
+            btn->setChecked(false); // desmarcar todo
+
+        QAbstractButton *first = buttons.first();
+        first->setChecked(true);
+        emit menuSelected(first->text()); // 🔹 fuerza mostrar la vista inicial
+    }
 }

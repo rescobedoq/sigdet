@@ -1,14 +1,46 @@
 <RCC>
     <qresource prefix="icons">
         <file>sidebar/dashboard.svg</file>
-        <file>sidebar/donaciones.svg</file>
+        <file>sidebar/donaciones recibidas.svg</file>
+        <file>sidebar/donaciones enviadas.svg</file>
         <file>sidebar/inventario.svg</file>
         <file>sidebar/donantes.svg</file>
+        <file>sidebar/beneficiarios.svg</file>
         <file>sidebar/informes.svg</file>
         <file>sidebar/configuracion.svg</file>
         <file>sidebar/ayuda.svg</file>
         <file>sidebar/cerrar sesion.svg</file>
 
         <file>sidebar/logo.png</file>
+
+        <file>generalIcons/search.svg</file>
+        <file>generalIcons/add_circle.svg</file>
+        <file>generalIcons/download.svg</file>
+        <file>generalIcons/refresh.svg</file>
+
+        <file>tabla/expand_more.svg</file>
+        <file>tabla/category.svg</file>
+        <file>tabla/calendar_month.svg</file>
+        <file>tabla/edit.svg</file>
+        <file>tabla/delete.svg</file>
+        <file>tabla/visibility.svg</file>
+        <file>tabla/save.svg</file>
+        <file>tabla/cancel.svg</file>
+
+        <file>donacionesEnviadasIcons/local_shipping.svg</file>
+        <file>donacionesEnviadasIcons/route.svg</file>
+        <file>donacionesEnviadasIcons/check_circle.svg</file>
+
+        <file>donacionesRecibidasIcons/insights.svg</file>
+        <file>donacionesRecibidasIcons/pending_actions.svg</file>
+        <file>donacionesRecibidasIcons/today.svg</file>
+
+        <file>ayudaImages/ayuda_1.png</file>
+        <file>ayudaImages/ayuda_2.png</file>
+        <file>ayudaImages/ayuda_3.png</file>
+        <file>ayudaImages/ayuda_4.png</file>
+        <file>ayudaImages/ayuda_5.png</file>
+        <file>ayudaImages/ayuda_6.png</file>
+        <file>ayudaImages/ong.png</file>
     </qresource>
 </RCC>
