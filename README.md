@@ -144,11 +144,8 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 
 # SEMANA 1 - REALIZANDO Y CUMPLIENDO TODOS LOS OBJETIVOS PLANTEADOS
 - Diagrma UML
-<img 
-  src="https://i.ibb.co/wrRdPPmw/DIAGRAMA-UML.jpg"
-  alt="Diagrama UML"
-  width="900"
-/>
+![UML](C:\Users\ronic\Desktop\proyecto qt\img\diagrama.jpeg)
+
 
 [![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
 [![Qt](https://img.shields.io/badge/Qt-6-green?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
