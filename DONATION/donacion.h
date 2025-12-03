@@ -1,23 +1,22 @@
 #ifndef DONACION_H
 #define DONACION_H
 
-#include <QMainWindow>
+#include <QWidget>
 
-QT_BEGIN_NAMESPACE
 namespace Ui {
 class Donacion;
 }
-QT_END_NAMESPACE
 
-class Donacion : public QMainWindow
+class Donacion : public QWidget
 {
     Q_OBJECT
 
 public:
-    Donacion(QWidget *parent = nullptr);
+    explicit Donacion(QWidget *parent = nullptr);
     ~Donacion();
 
 private:
     Ui::Donacion *ui;
 };
+
 #endif // DONACION_H

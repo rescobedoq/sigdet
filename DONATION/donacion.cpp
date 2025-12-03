@@ -1,8 +1,8 @@
 #include "donacion.h"
-#include "ui_donacion.h"
+#include "ui_Donacion.h"
 
 Donacion::Donacion(QWidget *parent)
-    : QMainWindow(parent)
+    : QWidget(parent)
     , ui(new Ui::Donacion)
 {
     ui->setupUi(this);
