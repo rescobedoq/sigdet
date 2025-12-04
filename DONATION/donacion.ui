@@ -1,94 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Donacion</class>
- <widget class="QWidget" name="Donacion">
+ <widget class="QMainWindow" name="Donacion">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>526</width>
+    <height>450</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Formulario de Donación</string>
+   <string>Registro de Donación</string>
   </property>
-
-  <layout class="QVBoxLayout" name="mainLayout">
-   <item>
-    <layout class="QFormLayout" name="formLayout">
-
-     <item row="0" column="0">
-      <widget class="QLabel" name="lblNombre">
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_main">
+    <item>
+     <widget class="QLabel" name="labelTitulo">
+      <property name="styleSheet">
+       <string notr="true">
+        font-size: 22px;
+        font-weight: bold;
+        color: #2a4d69;
+       </string>
+      </property>
+      <property name="text">
+       <string>Gestión de Donaciones</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBoxFormulario">
+      <property name="styleSheet">
+       <string notr="true">
+        font-size: 14px;
+       </string>
+      </property>
+      <property name="title">
+       <string>Formulario de Registro</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayoutForm">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelDonante">
+         <property name="text">
+          <string>Nombre del Donante:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="inputDonante"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelTipo">
+         <property name="text">
+          <string>Tipo de Donación:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="comboTipo">
+         <item>
+          <property name="text">
+           <string>Alimento</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ropa</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelCantidad">
+         <property name="text">
+          <string>Cantidad:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="spinCantidad">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>9999</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelFecha">
+         <property name="text">
+          <string>Fecha:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QDateEdit" name="dateFecha">
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayoutButtons">
+      <item>
+       <widget class="QPushButton" name="btnRegistrar">
+        <property name="styleSheet">
+         <string notr="true">
+          background-color: #4caf50;
+          color: white;
+          padding: 6px;
+          border-radius: 4px;
+         </string>
+        </property>
+        <property name="text">
+         <string>Registrar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnLimpiar">
+        <property name="styleSheet">
+         <string notr="true">
+          background-color: #f44336;
+          color: white;
+          padding: 6px;
+          border-radius: 4px;
+         </string>
+        </property>
+        <property name="text">
+         <string>Limpiar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tablaDonaciones">
+      <property name="rowCount">
+       <number>0</number>
+      </property>
+      <property name="columnCount">
+       <number>4</number>
+      </property>
+      <column>
        <property name="text">
-        <string>Nombre:</string>
+        <string>Donante</string>
        </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLineEdit" name="txtNombre"/>
-     </item>
-
-     <item row="1" column="0">
-      <widget class="QLabel" name="lblTipo">
+      </column>
+      <column>
        <property name="text">
-        <string>Tipo:</string>
+        <string>Tipo</string>
        </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QComboBox" name="cmbTipo">
-       <item><property name="text"><string>Alimentos</string></property></item>
-       <item><property name="text"><string>Ropa</string></property></item>
-      </widget>
-     </item>
-
-     <item row="2" column="0">
-      <widget class="QLabel" name="lblCantidad">
+      </column>
+      <column>
        <property name="text">
-        <string>Cantidad:</string>
+        <string>Cantidad</string>
        </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QDoubleSpinBox" name="spnCantidad"/>
-     </item>
-
-     <item row="3" column="0">
-      <widget class="QLabel" name="lblFecha">
+      </column>
+      <column>
        <property name="text">
-        <string>Fecha:</string>
+        <string>Fecha</string>
        </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="QDateEdit" name="dateFecha"/>
-     </item>
-
-    </layout>
-   </item>
-
-   <item>
-    <layout class="QHBoxLayout" name="buttonsLayout">
-     <item>
-      <widget class="QPushButton" name="btnRegistrar">
-       <property name="text">
-        <string>Registrar</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btnLimpiar">
-       <property name="text">
-        <string>Limpiar</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </item>
-  </layout>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>526</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
  </widget>
-
  <resources/>
  <connections/>
 </ui>

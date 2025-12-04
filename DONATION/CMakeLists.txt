@@ -1,51 +1,79 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.16)
 
-project(SIGDET VERSION 1.0 LANGUAGES CXX)
+project(Dona VERSION 0.1 LANGUAGES CXX)
 
-# Usar C++17 (suficiente para tu curso y Qt)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Detectar Qt automáticamente (funciona para Qt 5 y Qt 6)
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
-# Para Qt6, descomenta:
-# find_package(Qt6 COMPONENTS Widgets REQUIRED)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
-# Archivos fuente
-set(SOURCES
-    Sources/main.cpp
-    Sources/donacion.cpp
+set(PROJECT_SOURCES
+        main.cpp
+        donante.cpp
+        donacion.cpp
+        inventario.cpp
+        reporte.cpp
+        donante.h
+        donacion.h
+        inventario.h
+        reporte.h
+        donacion.ui
 )
 
-# Archivos de header
-set(HEADERS
-    Headers/donacion.h
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(Dona
+        MANUAL_FINALIZATION
+        ${PROJECT_SOURCES}
+        donante.h donante.cpp
+        inventario.h inventario.cpp
+        reporte.h reporte.cpp
+    )
+# Define target properties for Android with Qt 6 as:
+#    set_property(TARGET Dona APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
+# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
+else()
+    if(ANDROID)
+        add_library(Dona SHARED
+            ${PROJECT_SOURCES}
+        )
+# Define properties for Android with Qt 5 after find_package() calls as:
+#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+    else()
+        add_executable(Dona
+            ${PROJECT_SOURCES}
+        )
+    endif()
+endif()
+
+target_link_libraries(Dona PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
+# If you are developing for iOS or macOS you should consider setting an
+# explicit, fixed bundle identifier manually though.
+if(${QT_VERSION} VERSION_LESS 6.1.0)
+  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.Dona)
+endif()
+set_target_properties(Dona PROPERTIES
+    ${BUNDLE_ID_OPTION}
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
 )
 
-# Formularios .ui
-set(FORMS
-    Forms/donacion.ui
+include(GNUInstallDirs)
+install(TARGETS Dona
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
-# Generar código de UI, MOC y recursos
-qt5_wrap_ui(UI_HEADERS ${FORMS})
-qt5_wrap_cpp(MOC_SOURCES ${HEADERS})
-
-# Crear el ejecutable final
-add_executable(${PROJECT_NAME}
-    ${SOURCES}
-    ${HEADERS}
-    ${UI_HEADERS}
-    ${MOC_SOURCES}
-)
-
-# Vincular librerías Qt
-target_link_libraries(${PROJECT_NAME}
-    Qt5::Widgets
-)
-
-# Para Qt6:
-# target_link_libraries(${PROJECT_NAME}
-#     Qt6::Widgets
-# )
-
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt_finalize_executable(Dona)
+endif()
