@@ -1,14 +1,22 @@
-#include "donacion.h"
-#include "./ui_donacion.h"
+#include "Donacion.h"
 
-Donacion::Donacion(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::Donacion)
+Donacion::Donacion(const std::string& tipo, const std::string& fecha, double cantidad)
+    : tipo(tipo), fecha(fecha), cantidad(cantidad)
 {
-    ui->setupUi(this);
+    if (tipo.empty()) {
+        throw DonacionInvalidaException("El tipo de donación no puede estar vacío.");
+    }
+
+    if (fecha.empty()) {
+        throw DonacionInvalidaException("La fecha no puede estar vacía.");
+    }
+
+    if (cantidad <= 0) {
+        throw DonacionInvalidaException("La cantidad debe ser mayor que cero.");
+    }
 }
 
-Donacion::~Donacion()
-{
-    delete ui;
-}
+std::string Donacion::getTipo() const { return tipo; }
+std::string Donacion::getFecha() const { return fecha; }
+double Donacion::getCantidad() const { return cantidad; }
+

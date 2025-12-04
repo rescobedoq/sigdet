@@ -158,6 +158,44 @@ Desarrollar un sistema de gestión de donaciones en **C++** utilizando **arquite
 - Explicacion de la semana 1 en este video
 [Abrir para ver el video de la explicacion de semana 1](https://drive.google.com/file/d/1k-090c0jD1xrIzKoOVOSDT8HYWK5S1qa/view?usp=sharing)
 
+# SEMANA 2 - REALIZANDO Y CUMPLIENDO TODOS LOS OBJETIVOS PLANTEADOS
+- Lo que vamos a realizar en esta semana es implementar las clases que pusimos en nuestro diagrama UML, ya que nos basaremos en la implementacion del modelo ( la cual es la logica de nuestro sistema). Ademas tenemos que aplicar herencia y polimorfismo y no solo eso ya que en nuestro objetivo es implementar Factory Method para crear los objetos de donacion, y el uso de errores personalizados para controlar los errores que podamos tener.
+- Para empezar en la parte del polimorfismo que clases podemos crear, en el mundo real que cosas se pueden donar y que cosas no, ya que no se puede donar todo (como por ejemplo los medicamentos que necesitariamos consultar y sacar licencias talvez ya que la salud no lo podemos tocar asi nada mas)
+- Que normalmente podriamos donar, ya que de acuerdo a ello realizamos los polimorfismos y la implementacion de las clases.
+
+Ropa
+- Ropa de temporada: En invierno, abrigos y ropa de abrigo. En verano, ropa ligera.
+- Ropa interior y calcetines: Siempre son necesarios y tienen alta demanda.
+- Ropa en buen estado: Prendas de todo tipo, tanto de adultos como de niños. 
+
+Alimentos
+- No perecederos: Alimentos enlatados (atún, sardinas, legumbres), arroz, pasta, lentejas, aceite y azúcar.
+- Bebidas: Agua embotellada.
+- Otros: Sopa de pasta en bolsa, café, galletas, mayonesa, mermelada y chocolate en polvo. 
+
+Higiene y limpieza
+- Artículos de aseo personal: Jabón, champú, cepillos de dientes, pasta de dientes, productos de higiene femenina, etc..
+- Productos de limpieza del hogar: Detergente, lavavajillas, etc.. 
+- Otros bienes
+
+Muebles y electrodomésticos: 
+- Camas, mesas, sillas, heladeras, lavarropas, si están en buen estado.
+
+Libros y objetos personales: 
+- Artículos de segunda mano que puedan ser útiles.
+
+Material de construcción y equipo médico: 
+- En caso de desastres naturales, estas donaciones son cruciales. 
+
+Dinero: 
+- La ayuda en efectivo puede ser muy útil para que las personas 
+
+Observemos en esta imagen la implementaciones de las clases nuevas para hacer POO
+
+<a href="https://ibb.co/hJPcQtJj"><img src="https://i.ibb.co/FLSXZjLM/semana2.jpg" alt="semana2" border="0"></a>
+
+- Explicacion de la semana 2 en este video
+[Abrir para ver el video de la explicacion de semana 2](https://drive.google.com/file/d/1saLGPHd7ZJeWIqxrf6fcJ0jkSVlQeeSD/view?usp=sharing)
 
 [![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
 [![Qt](https://img.shields.io/badge/Qt-6-green?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)

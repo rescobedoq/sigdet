@@ -97,6 +97,94 @@ build CMakeFiles/Dona.dir/reporte.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$
   OBJECT_DIR = CMakeFiles\Dona.dir
   OBJECT_FILE_DIR = CMakeFiles\Dona.dir
 
+build CMakeFiles/Dona.dir/donacionalimento.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionalimento.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionalimento.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionropa.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionropa.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionropa.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionfactory.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionfactory.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionfactory.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionhigiene.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionhigiene.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionhigiene.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionmueble.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionmueble.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionmueble.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionlibro.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionlibro.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionlibro.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionequipomedico.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionequipomedico.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionequipomedico.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donaciondinero.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donaciondinero.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donaciondinero.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionexcepcion.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionexcepcion.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionexcepcion.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacioninvalidaexception.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacioninvalidaexception.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacioninvalidaexception.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
+build CMakeFiles/Dona.dir/donacionbase.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$:/Users/ronic/Documents/Dona/donacionbase.cpp || cmake_object_order_depends_target_Dona
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Dona.dir\donacionbase.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Dona_autogen/include -isystem C:/Qt/6.9.1/mingw_64/include/QtCore -isystem C:/Qt/6.9.1/mingw_64/include -isystem C:/Qt/6.9.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Dona.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dona.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Dona
@@ -105,7 +193,7 @@ build CMakeFiles/Dona.dir/reporte.cpp.obj: CXX_COMPILER__Dona_unscanned_Debug C$
 #############################################
 # Link the executable Dona.exe
 
-build Dona.exe: CXX_EXECUTABLE_LINKER__Dona_Debug CMakeFiles/Dona.dir/Dona_autogen/mocs_compilation.cpp.obj CMakeFiles/Dona.dir/main.cpp.obj CMakeFiles/Dona.dir/donante.cpp.obj CMakeFiles/Dona.dir/donacion.cpp.obj CMakeFiles/Dona.dir/inventario.cpp.obj CMakeFiles/Dona.dir/reporte.cpp.obj | C$:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a || Dona_autogen Dona_autogen_timestamp_deps
+build Dona.exe: CXX_EXECUTABLE_LINKER__Dona_Debug CMakeFiles/Dona.dir/Dona_autogen/mocs_compilation.cpp.obj CMakeFiles/Dona.dir/main.cpp.obj CMakeFiles/Dona.dir/donante.cpp.obj CMakeFiles/Dona.dir/donacion.cpp.obj CMakeFiles/Dona.dir/inventario.cpp.obj CMakeFiles/Dona.dir/reporte.cpp.obj CMakeFiles/Dona.dir/donacionalimento.cpp.obj CMakeFiles/Dona.dir/donacionropa.cpp.obj CMakeFiles/Dona.dir/donacionfactory.cpp.obj CMakeFiles/Dona.dir/donacionhigiene.cpp.obj CMakeFiles/Dona.dir/donacionmueble.cpp.obj CMakeFiles/Dona.dir/donacionlibro.cpp.obj CMakeFiles/Dona.dir/donacionequipomedico.cpp.obj CMakeFiles/Dona.dir/donaciondinero.cpp.obj CMakeFiles/Dona.dir/donacionexcepcion.cpp.obj CMakeFiles/Dona.dir/donacioninvalidaexception.cpp.obj CMakeFiles/Dona.dir/donacionbase.cpp.obj | C$:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a || Dona_autogen Dona_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.9.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

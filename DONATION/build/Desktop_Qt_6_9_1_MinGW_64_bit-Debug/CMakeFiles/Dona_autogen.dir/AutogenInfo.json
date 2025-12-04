@@ -338,6 +338,72 @@
 			null
 		],
 		[
+			"C:/Users/ronic/Documents/Dona/donacionalimento.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionalimento.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionbase.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionbase.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donaciondinero.h",
+			"MU",
+			"EWIEGA46WW/moc_donaciondinero.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionequipomedico.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionequipomedico.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionexcepcion.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionexcepcion.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionfactory.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionfactory.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionhigiene.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionhigiene.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacioninvalidaexception.h",
+			"MU",
+			"EWIEGA46WW/moc_donacioninvalidaexception.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionlibro.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionlibro.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionmueble.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionmueble.cpp",
+			null
+		],
+		[
+			"C:/Users/ronic/Documents/Dona/donacionropa.h",
+			"MU",
+			"EWIEGA46WW/moc_donacionropa.cpp",
+			null
+		],
+		[
 			"C:/Users/ronic/Documents/Dona/donante.h",
 			"MU",
 			"EWIEGA46WW/moc_donante.cpp",
@@ -428,6 +494,21 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/ronic/Documents/Dona/donacion.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionalimento.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionbase.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donaciondinero.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionequipomedico.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionexcepcion.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionfactory.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionhigiene.cpp", "MU", null ],
+		[
+			"C:/Users/ronic/Documents/Dona/donacioninvalidaexception.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/ronic/Documents/Dona/donacionlibro.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionmueble.cpp", "MU", null ],
+		[ "C:/Users/ronic/Documents/Dona/donacionropa.cpp", "MU", null ],
 		[ "C:/Users/ronic/Documents/Dona/donante.cpp", "MU", null ],
 		[ "C:/Users/ronic/Documents/Dona/inventario.cpp", "MU", null ],
 		[ "C:/Users/ronic/Documents/Dona/main.cpp", "MU", null ],

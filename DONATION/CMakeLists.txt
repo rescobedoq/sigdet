@@ -32,6 +32,19 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         donante.h donante.cpp
         inventario.h inventario.cpp
         reporte.h reporte.cpp
+        donacionalimento.h donacionalimento.cpp
+        donacionropa.h donacionropa.cpp
+        donacionfactory.h donacionfactory.cpp
+        donacionropa.h donacionropa.cpp
+        donacionalimento.h donacionalimento.cpp
+        donacionhigiene.h donacionhigiene.cpp
+        donacionmueble.h donacionmueble.cpp
+        donacionlibro.h donacionlibro.cpp
+        donacionequipomedico.h donacionequipomedico.cpp
+        donaciondinero.h donaciondinero.cpp
+        donacionexcepcion.h donacionexcepcion.cpp
+        donacioninvalidaexception.h donacioninvalidaexception.cpp
+        donacionbase.h donacionbase.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Dona APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

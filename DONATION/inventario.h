@@ -1,18 +1,20 @@
-/*#ifndef INVENTARIO_H
+#ifndef INVENTARIO_H
 #define INVENTARIO_H
 
-#include "donacion.h"
 #include <vector>
+#include <memory>
+#include "donacionbase.h"
 
 class Inventario {
-public:
-    Inventario();
-
-    void agregarDonacion(const Donacion &d);
-
 private:
-    std::vector<Donacion> lista;
-};
-*/
+    std::vector<std::shared_ptr<DonacionBase>> donaciones;
+    int ultimoID = 0;
 
-#endif // INVENTARIO_H
+public:
+    void agregarDonacion(std::shared_ptr<DonacionBase> donacion);
+    void listarDonaciones() const;
+    std::shared_ptr<DonacionBase> buscarDonacion(int id) const;
+    bool eliminarDonacion(int id);
+};
+
+#endif

@@ -1,22 +1,28 @@
 #ifndef DONACION_H
 #define DONACION_H
 
-#include <QMainWindow>
+#include <string>
+#include "DonacionInvalidaException.h"
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class Donacion; }
-QT_END_NAMESPACE
-
-class Donacion : public QMainWindow
-{
-    Q_OBJECT
+class Donacion {
+protected:
+    std::string tipo;
+    std::string fecha;
+    std::string donante;
 
 public:
-    explicit Donacion(QWidget *parent = nullptr);
-    ~Donacion();
+    Donacion(const std::string& tipo,
+             const std::string& fecha,
+             const std::string& donante)
+        : tipo(tipo), fecha(fecha), donante(donante) {}
 
-private:
-    Ui::Donacion *ui;
+    virtual ~Donacion() = default;
+
+    std::string getTipo() const { return tipo; }
+    std::string getFecha() const { return fecha; }
+    std::string getDonante() const { return donante; }
+
+    virtual std::string info() const = 0; // método polimórfico
 };
 
-#endif // DONACION_H
+#endif
