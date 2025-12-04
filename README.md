@@ -16,8 +16,13 @@
 - Llacho Delgado Samir Jaren (sllachod@unsa.edu.pe)
 - Mamani Quispe Adrian Issac (admamaniq@unsa.edu.pe)
 
-**Fecha:** Noviembre 2025
+**Fecha:** Diciembre 2025
 <!-- Referencias principales del proyecto -->
+
+## 🔗 Video explicativo del proyecto
+
+[![Video](https://img.shields.io/badge/YouTube-Video_explicativo_del_proyecto-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/bp2yoYvOiJ0?si=RUZncQz5m35_8pbc)
+
 ## 🔗 Referencias y Recursos Utilizados
 
 [![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
