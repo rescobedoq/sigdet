@@ -197,6 +197,15 @@ Observemos en esta imagen la implementaciones de las clases nuevas para hacer PO
 - Explicacion de la semana 2 en este video
 [Abrir para ver el video de la explicacion de semana 2](https://drive.google.com/file/d/1saLGPHd7ZJeWIqxrf6fcJ0jkSVlQeeSD/view?usp=sharing)
 
+# SEMANA 3 y 4 - REALIZANDO Y CUMPLIENDO TODOS LOS OBJETIVOS PLANTEADOS
+- video explicando lo que se realizo en la semana 3 y 4
+[Abrir para ver el video de la explicacion de semana 3 y 4](https://www.youtube.com/watch?v=bp2yoYvOiJ0)
+
+# SEMANA 5 - REALIZANDO Y CUMPLIENDO TODOS LOS OBJETIVOS PLANTEADOS
+- Explicacion de todo el proyecto en este video
+[Abrir para ver el video de la explicacion del proyecto sigdet (Todo completo) ](https://drive.google.com/file/d/18Vqr9bFlvkyXTYLmFiATAjC4MYNgHuUn/view?usp=sharing)
+
+
 [![C++](https://img.shields.io/badge/C++-17/20-blue?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/)
 [![Qt](https://img.shields.io/badge/Qt-6-green?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
 [![SQLite](https://img.shields.io/badge/SQLite-Database-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)

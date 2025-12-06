@@ -1,9 +1,0 @@
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/Dona.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/Dona_autogen_timestamp_deps.dir
-C:/Users/ronic/Documents/Dona/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/CMakeFiles/Dona_autogen.dir

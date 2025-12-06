@@ -1,0 +1,43 @@
+/* ───────────── Contenedor principal ───────────── */
+QScrollArea {
+    border: none;
+    background-color: #ffffff;
+}
+
+/* ───────────── Viewport ───────────── */
+QScrollArea > QWidget#viewport {
+    background-color: #ffffff;
+}
+
+/* ───────────── Scroll vertical ───────────── */
+QScrollBar:vertical {
+    background: #E5E7EB;          /* Fondo del canal */
+    width: 10px;                  /* Ancho normal */
+    margin: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #1F2937;          /* Barra desplazable */
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;                  /* Sin flechas */
+}
+
+/* ───────────── Scroll horizontal ───────────── */
+QScrollBar:horizontal {
+    background: #E5E7EB;          /* Fondo del canal */
+    width: 10px;                  /* Ancho normal */
+    margin: 4px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #1F2937;          /* Barra desplazable */
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}
+
